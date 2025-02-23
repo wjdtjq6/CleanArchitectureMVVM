@@ -20,6 +20,7 @@
 		BFAD85C52D6AE2FA003417E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BFAD85C42D6AE2FA003417E1 /* .gitignore */; };
 		BFAD85C82D6AE43A003417E1 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD85C72D6AE43A003417E1 /* UserSession.swift */; };
 		BFAD85CA2D6AE7E5003417E1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD85C92D6AE7E5003417E1 /* NetworkManager.swift */; };
+		BFAD85CC2D6B6765003417E1 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD85CB2D6B6765003417E1 /* APIKey.swift */; };
 		E7B11CA3F6882AB8C6A9A5EF /* Pods_CleanArchitectureMVVM_CleanArchitectureMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006B09F397379BF965068783 /* Pods_CleanArchitectureMVVM_CleanArchitectureMVVMUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		BFAD85C42D6AE2FA003417E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BFAD85C72D6AE43A003417E1 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		BFAD85C92D6AE7E5003417E1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BFAD85CB2D6B6765003417E1 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		BFC225192D67EB290074B3BB /* CleanArchitectureMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchitectureMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC2252A2D67EB2B0074B3BB /* CleanArchitectureMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC225342D67EB2B0074B3BB /* CleanArchitectureMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +203,7 @@
 		BFC225102D67EB290074B3BB = {
 			isa = PBXGroup;
 			children = (
+				BFAD85CB2D6B6765003417E1 /* APIKey.swift */,
 				BFAD85C42D6AE2FA003417E1 /* .gitignore */,
 				BFAD85A82D6ADD49003417E1 /* CleanArchitectureMVVM */,
 				BFC2252D2D67EB2B0074B3BB /* CleanArchitectureMVVMTests */,
@@ -487,6 +490,7 @@
 				BFAD85AA2D6ADD49003417E1 /* CoreDataError.swift in Sources */,
 				BFAD85AB2D6ADD49003417E1 /* NetworkError.swift in Sources */,
 				BFAD85AC2D6ADD49003417E1 /* UserListItem.swift in Sources */,
+				BFAD85CC2D6B6765003417E1 /* APIKey.swift in Sources */,
 				BFAD85AD2D6ADD49003417E1 /* UserRepositoryProtocol.swift in Sources */,
 				BFAD85AE2D6ADD49003417E1 /* UserListUsercase.swift in Sources */,
 				BFAD85AF2D6ADD49003417E1 /* CleanArchitectureMVVMApp.swift in Sources */,
