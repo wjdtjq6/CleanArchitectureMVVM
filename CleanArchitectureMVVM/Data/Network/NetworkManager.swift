@@ -21,5 +21,6 @@ public final class NetworkManager {
         }
         let result = await session.request(url, headers: tokenHeader).response
         if let error = result.error { retrun .fail}
+        
     }
 }
