@@ -8,7 +8,7 @@
 import Foundation
 
 public enum NetworkError: Error {
-    case urlError(URLError)
+    case urlError
     case invalidResponse
     case failToDecode(String)
     case dataNil

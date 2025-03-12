@@ -18,11 +18,11 @@ public protocol SessionProtocol {
 }
   
 class UserSession {
-    private var session: SessionManager
-    init(session: SessionManager) {
+    private var session: Session
+    init(session: Session) {
         let config = URLSessionConfiguration.default
         config.requestCachePolicy = .returnCacheDataElseLoad
-        self.session = SessionManager(configuration: config)
+        self.session = Session(configuration: config)
     }
     
     func request(_ url: URLConvertible,
