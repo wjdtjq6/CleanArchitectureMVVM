@@ -11,6 +11,9 @@
 		5FC336967505758D67FD35C5 /* Pods_CleanArchitectureMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AB723D1B1F07D957AF72B9 /* Pods_CleanArchitectureMVVMTests.framework */; };
 		B02EC4127C4AA8DAA466219E /* Pods_CleanArchitectureMVVM_CleanArchitectureMVVMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D48415E88DEB96F2183BFD /* Pods_CleanArchitectureMVVM_CleanArchitectureMVVMUITests.framework */; };
 		BFC225A32D6CA5980074B3BB /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC225A22D6CA5980074B3BB /* APIKey.swift */; };
+		BFE598272D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFE598252D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodeld */; };
+		BFE5982D2D8452DE003384EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5982C2D8452DE003384EE /* AppDelegate.swift */; };
+		BFE5982F2D84534C003384EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE5982E2D84534C003384EE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		BFC2252A2D67EB2B0074B3BB /* CleanArchitectureMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC225342D67EB2B0074B3BB /* CleanArchitectureMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanArchitectureMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC225A22D6CA5980074B3BB /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		BFE598262D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanArchitectureMVVM.xcdatamodel; sourceTree = "<group>"; };
+		BFE5982C2D8452DE003384EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE5982E2D84534C003384EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0E6A284D3EDF291114045C9 /* Pods-CleanArchitectureMVVM-CleanArchitectureMVVMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureMVVM-CleanArchitectureMVVMUITests.debug.xcconfig"; path = "Target Support Files/Pods-CleanArchitectureMVVM-CleanArchitectureMVVMUITests/Pods-CleanArchitectureMVVM-CleanArchitectureMVVMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F55D02072D0BEF5C34CA90E7 /* Pods_CleanArchitectureMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanArchitectureMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82868DD1F66D9B92129CF21 /* Pods-CleanArchitectureMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanArchitectureMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-CleanArchitectureMVVMTests/Pods-CleanArchitectureMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +114,9 @@
 		BFC225102D67EB290074B3BB = {
 			isa = PBXGroup;
 			children = (
+				BFE5982E2D84534C003384EE /* ViewController.swift */,
+				BFE5982C2D8452DE003384EE /* AppDelegate.swift */,
+				BFE598252D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodeld */,
 				BFC225A22D6CA5980074B3BB /* APIKey.swift */,
 				BFC2251B2D67EB290074B3BB /* CleanArchitectureMVVM */,
 				BFC2252D2D67EB2B0074B3BB /* CleanArchitectureMVVMTests */,
@@ -384,7 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE5982F2D84534C003384EE /* ViewController.swift in Sources */,
 				BFC225A32D6CA5980074B3BB /* APIKey.swift in Sources */,
+				BFE598272D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodeld in Sources */,
+				BFE5982D2D8452DE003384EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +758,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFE598252D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFE598262D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodel */,
+			);
+			currentVersion = BFE598262D839EE3003384EE /* CleanArchitectureMVVM.xcdatamodel */;
+			path = CleanArchitectureMVVM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFC225112D67EB290074B3BB /* Project object */;
 }
