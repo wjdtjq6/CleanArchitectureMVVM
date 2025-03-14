@@ -7,7 +7,7 @@
 
 import Foundation
 
-final public class Usertwork {
+final public class UserNetwork {
     private let manager: NetworkManager
     
     init(manager: NetworkManager) {

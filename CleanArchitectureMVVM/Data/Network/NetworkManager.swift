@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 protocol NetworkManagerProtocol {
-    func fetchData<T: Decodable>(url: String, method: HTTPMethod, parameters : Parameters?                       ) async -> Result<T, NetworkError>
+    func fetchData<T: Decodable>(url: String, method: HTTPMethod, parameters : Parameters?) async -> Result<T, NetworkError>
 }
 
 public final class NetworkManager {
@@ -21,7 +21,6 @@ public final class NetworkManager {
         let tokenHeader = HTTPHeader(name: "Authorization", value: "Bearer \(APIKey.apiKey)")
         return HTTPHeaders([tokenHeader])
     }()
-    //["Authorization": "Bearer \(APIKey.APIKey)"]
     
     func fetchData<T: Decodable>(url: String, method: HTTPMethod, parameters : Parameters? = nil) async -> Result<T, NetworkError> {
         guard let url = URL(string: url) else {
